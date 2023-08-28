@@ -1,0 +1,187 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+}
+
+
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+
+
+#startingPage{
+    display: block;
+}
+
+#player1{
+    display: none;
+}
+#player2{
+    display: none;
+}
+
+#startingPage1{
+    display: none;
+}
+
+#last{
+    display: none;
+}
+#winner{
+    display: none;
+}
+
+
+.parent1{
+    
+        display: flex;
+        flex-direction: column;
+   
+}
+
+
+.wannaPlay{
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.input-box{
+
+    border-radius: 79px;
+    border: 2px solid #D9D9D9;
+    background: #FFF;
+    padding: 30px 300px 30px 35px;
+    margin-top: 36px;
+    outline: none;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: rgb(49, 49, 49);
+
+}
+
+.startGame{
+
+    border-radius: 53px;
+    background: #7041D3;
+    padding: 15px 87px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #7041D3;
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 36px;
+
+}
+
+.startGame:hover{
+    background: #512f9b;
+}
+
+
+
+
+.alert-box{
+    border-radius: 5px;
+    background: #CC3030;
+    padding: 5px 0;
+    margin-top: 50px;
+}
+
+.msg{
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+
+.chance{
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+#last .g-over{
+
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: translateY(400%);
+
+}
+#winner .g-over{
+
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: translateY(400%);
+
+}
+
+.score-btn{
+    border-radius: 53px;
+    background: #7041D3;
+    padding: 15px 87px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #7041D3;
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 100px;
+
+}
+
+
+.tag{
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+.score-btn:hover{
+    background: #512f9b;
+}
