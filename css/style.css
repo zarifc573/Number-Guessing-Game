@@ -68,7 +68,7 @@ h1,h2,h3,h4,h5,h6,p{
     border-radius: 79px;
     border: 2px solid #D9D9D9;
     background: #FFF;
-    padding: 30px 300px 30px 35px;
+    padding: 20px 100px 20px 25px;
     margin-top: 36px;
     outline: none;
     font-size: 32px;
@@ -79,11 +79,10 @@ h1,h2,h3,h4,h5,h6,p{
 
 }
 
-.startGame{
-
+.startGame {
     border-radius: 53px;
     background: #7041D3;
-    padding: 15px 87px;
+    padding: 10px 65px;
     display: block;
     margin: 0 auto;
     border: 1px solid #7041D3;
@@ -93,7 +92,6 @@ h1,h2,h3,h4,h5,h6,p{
     font-weight: 700;
     line-height: normal;
     margin-top: 36px;
-
 }
 
 .startGame:hover{
@@ -106,13 +104,13 @@ h1,h2,h3,h4,h5,h6,p{
 .alert-box{
     border-radius: 5px;
     background: #CC3030;
-    padding: 5px 0;
+    padding: 2px 0;
     margin-top: 50px;
 }
 
 .msg{
     color: #FFF;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
