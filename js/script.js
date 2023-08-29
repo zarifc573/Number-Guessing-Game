@@ -79,8 +79,9 @@ letsPlay.addEventListener('click', function () {
 
 
 startGame2.addEventListener('click', function () {
-    if (inputBox3.value == '') {
-        alert('Please enter a name')
+    if (inputBox3.value == '' ||inputBox3.value==inputBox.value) {
+        alert('Please enter a name or different name')
+        inputBox3.value=''
  
     }
     else {
